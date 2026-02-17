@@ -3,5 +3,6 @@ name = "future-of-software-engineering"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
+    "matplotlib>=3.10.8",
     "openai>=2.21.0",
 ]
