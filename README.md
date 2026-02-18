@@ -1,7 +1,5 @@
 ![Daily score trend](score_chart.png)
 
-Regenerate it from `score.csv` with `uv run python generate_graph.py`.
-
 # Future of Software Engineering
 Daily analysis and ranking of the future of software engineering.
 
