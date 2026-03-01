@@ -54,6 +54,28 @@ def next_day_index(score_csv_path: Path) -> int:
     return int(rows[-1]["Day"]) + 1
 
 
+def first_recorded_analysis_date(root: Path) -> date | None:
+    dated_files: list[date] = []
+    for candidate in root.glob("*/*"):
+        if not candidate.is_file():
+            continue
+        try:
+            dated_files.append(date.fromisoformat(candidate.name))
+        except ValueError:
+            continue
+
+    if not dated_files:
+        return None
+    return min(dated_files)
+
+
+def day_index_for_date(today: date, root: Path, score_csv_path: Path) -> int:
+    first_date = first_recorded_analysis_date(root)
+    if first_date is None:
+        return next_day_index(score_csv_path)
+    return (today - first_date).days
+
+
 def append_score(day: int, score: int, score_csv_path: Path) -> None:
     file_exists = score_csv_path.exists()
     needs_newline = False
@@ -124,7 +146,7 @@ def main() -> None:
 
     write_daily_file(daily_file_path, analysis_text, score)
 
-    day = next_day_index(SCORE_CSV_PATH)
+    day = day_index_for_date(today, ROOT, SCORE_CSV_PATH)
     append_score(day, score, SCORE_CSV_PATH)
 
     print(f"Wrote analysis to {daily_file_path}")
