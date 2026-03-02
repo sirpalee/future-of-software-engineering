@@ -1,0 +1,187 @@
+Analysis
+```
+### 1. Overall Sentiment
+
+The dominant sentiment in early **2026** is **cautiously optimistic but noticeably more anxious and fragmented** than in the pre-2022 “boom” era. In professional circles, Software Engineering is still widely viewed as a resilient, high-leverage career—but with a stronger undercurrent of **job-market uncertainty**, **constant re-skilling pressure**, and **questions about what “being an engineer” means when AI writes a lot of the first draft**.
+
+A clear pattern in professional discourse is **pragmatic adoption rather than uncritical enthusiasm**: AI tools are now broadly used, but sentiment has cooled as day-to-day friction (trust, correctness, debugging burden) becomes more salient. For example, large developer surveys show **very high usage** of AI tools while **positive sentiment toward them has declined** compared to prior years, and frustrations with “almost right” output are common. ([Stack Overflow][1])
+
+In public commentary, the tone is more volatile and headline-driven: replacement narratives (“AI will do the job”) are louder, while practitioner voices more often emphasize **shift and augmentation** over immediate disappearance. That gap—between public “replacement” framing and professional “workflow transformation” framing—is one reason overall sentiment feels **split**.
+
+---
+
+### 2. AI Impact on Software Engineering
+
+#### Day-to-day SWE work (how it’s perceived to change)
+
+Across professional discussions, AI-assisted development is increasingly perceived as moving engineers from *typing code* to *directing and validating work*:
+
+* **More time on specification and intent**: clearer requirements, tighter acceptance criteria, better task decomposition, more explicit constraints.
+* **More review and verification**: reading AI-generated code, asking “does this actually satisfy the intent?”, adding tests, tracing failures.
+* **More debugging and integration work**: practitioners frequently report that “almost correct” output creates time sinks in diagnosing subtle issues and aligning with existing architectures. ([Stack Overflow][2])
+* **Faster scaffolding / boilerplate**: quicker setup for common patterns, documentation drafts, test outlines, refactors, and translation across languages/frameworks. ([Stack Overflow][1])
+
+A key nuance in current sentiment: **AI is “everywhere” but not always “trusted.”** Usage is mainstream, yet many developers describe a tension between speed and reliability. ([Stack Overflow][1])
+
+#### Skill requirements (how the bar is perceived to shift)
+
+The perceived “skills that matter” are drifting upward and outward from pure implementation:
+
+* **Engineering judgment**: tradeoffs, architecture, risk management, and deciding what *not* to build.
+* **Testing and evaluation mindset**: stronger emphasis on test design, invariants, edge cases, and regression discipline (because output volume rises).
+* **Systems thinking**: understanding complex interactions (distributed systems, performance, security, data flows) rather than isolated snippets.
+* **AI tool literacy**: effective prompting, constraint-setting, reviewing, and building safe workflows around AI (including policies around sensitive code/data).
+* **Communication and product fluency**: translating business needs into crisp technical intent.
+
+This is consistent with broader employer/skills discourse that frames AI as a driver of shifting skill needs (toward technical literacy plus human judgment and adaptability). ([World Economic Forum][3])
+
+#### Entry-level vs senior roles (how impact is perceived)
+
+A common theme is **role compression at the bottom and leverage expansion at the top**:
+
+* **Entry-level / early career**
+
+  * Perceived erosion of “training tasks” (simple tickets, boilerplate features, routine refactors).
+  * Higher expectations: juniors are expected to deliver more quickly and to use AI competently from day one.
+  * More pressure to demonstrate end-to-end ability (shipping, debugging, understanding systems) rather than just coding exercises.
+
+* **Senior / staff+**
+
+  * Perceived increase in value for people who can set direction, maintain quality, manage risk, and guide teams using AI.
+  * More emphasis on architecture, reliability, security, and cross-team coordination.
+
+This doesn’t mean seniors are “safe” in all narratives—but the prevailing professional view is that senior work is **less substitutable** because it’s closer to accountability, design authority, and organizational context.
+
+#### Long-term role relevance (how it’s framed)
+
+The most common professional framing is: **“Software engineering becomes more like engineering.”** Less manual assembly, more design/validation/operations. This aligns with perspectives that AI is an **amplifier** of an organization’s existing strengths and weaknesses, rather than a simple magic replacement. ([Dora][4])
+
+#### Augmentation vs erosion vs replacement narratives
+
+* **Productivity augmentation (dominant professional narrative)**
+
+  * AI is widely seen as a productivity multiplier for many tasks, especially drafting and iterating, with humans steering and validating. ([Stack Overflow][1])
+
+* **Partial role erosion (common secondary narrative)**
+
+  * Routine coding is seen as increasingly commoditized.
+  * Some expect fewer roles focused purely on implementation, with more emphasis on “full-cycle” ownership (design → build → run).
+
+* **Full replacement (loud in public commentary, less dominant among practitioners)**
+
+  * Still present and emotionally salient, but not the modal professional belief in the near term.
+  * Developer survey data suggests most developers do **not** currently view AI as an immediate threat to their job, though uncertainty is rising. ([Stack Overflow][5])
+  * Also, “agentic” tooling is discussed heavily, but broad adoption is not yet universal—many developers report not using agents or sticking to simpler copilot/autocomplete patterns. ([Stack Overflow][2])
+
+---
+
+### 3. Job Opportunities
+
+This section reflects **perceived availability**, not precise counts.
+
+#### Entry-level roles
+
+Perception is **tight and highly competitive**:
+
+* Fewer “true junior” openings relative to the number of applicants is a common theme.
+* Employers appear to raise the bar: more expectation of portfolio evidence, internships, or demonstrable shipping ability.
+* AI is perceived to be a contributing factor mainly by **raising output expectations** and by reducing the need for entry-level capacity for straightforward tasks—but macro hiring conditions are still often described as the bigger driver of scarcity. ([LinkedIn Pressroom][6])
+
+#### Mid-level roles
+
+Perception is **mixed but somewhat healthier than entry-level**:
+
+* Still competitive, with stronger screening and preference for candidates who can operate independently.
+* “Modern stack” expectations are often described as converging around cloud, security-mindedness, and AI-aware workflows. ([LinkedIn Pressroom][6])
+
+#### Senior / specialist roles
+
+Perception remains **comparatively strong**, especially for:
+
+* Security, cloud/platform engineering, reliability, data engineering, and AI-adjacent engineering.
+* Roles that require deep systems knowledge, accountability, or regulated-domain competence.
+
+#### Hiring demand trends (direction & confidence)
+
+The prevailing belief is that hiring is **cooler than peak boom years**, with a slower and more selective market. Major labor-market summaries describe a cooling environment through 2025, and commentary frames the slowdown as driven largely by macro conditions rather than AI alone. ([Indeed Hiring Lab Australia][7])
+
+At the same time, longer-horizon outlook signals (government projections and employer outlook reports) still position software and adjacent tech roles as **structurally important** over the next decade. ([Bureau of Labor Statistics][8])
+
+#### Geographic / sector concentration (high-level)
+
+A common perception is **greater concentration**:
+
+* In certain hubs and sectors (AI/product companies, finance, health, government/defense, critical infrastructure).
+* In hybrid/on-site arrangements compared to the peak-remote period; remote remains significant but not dominant in many narratives. ([Stack Overflow][2])
+
+---
+
+### 4. Software Engineer Happiness & Well-Being
+
+Overall morale appears **stable with mild improvement among those currently employed**, but unevenly distributed (typically better for established engineers, worse for early-career and active job seekers). Survey data reflects a pattern where a minority report being clearly “happy,” a large middle reports being “complacent,” and a substantial minority reports being “not happy”—with happiness ticking up versus the prior year. ([Stack Overflow][5])
+
+Key drivers in perceived well-being:
+
+* **Job security anxiety:** present and persistent, especially due to hiring-market competition and AI narratives. Even where most developers don’t call AI an immediate threat, the *direction of confidence* has weakened, contributing to background anxiety. ([Stack Overflow][5])
+* **Compensation vs stress:** compensation remains perceived as relatively strong in many regions and specialties, but stress is elevated by re-orgs, performance pressure, and the feeling of needing continuous upskilling. ([Bureau of Labor Statistics][8])
+* **Work-life balance:** mixed—hybrid norms reduce some flexibility compared to peak-remote, but flexibility remains meaningful for many. ([Stack Overflow][2])
+* **Intellectual fulfillment:** still a major positive for many engineers, especially those working on complex systems. However, frustration rises when work becomes more about tool-wrangling, chasing shifting priorities, or debugging low-trust AI output. ([Stack Overflow][2])
+* **Career identity stability:** mildly shaken in discourse (“what even counts as engineering now?”), but not collapsing—more like a redefinition around higher-level responsibility.
+
+Net: morale looks **notably better than an “apocalypse” framing**, but **not euphoric**—more “steady, watchful, and adapting.”
+
+---
+
+### 5. Replacement Outlook
+
+In current public perception, the most realistic path is generally framed as **“transform but persist,”** with real debate about how much the profession **shrinks** versus how much it **changes shape**.
+
+#### Transform but persist (dominant professional expectation)
+
+The prevailing professional stance is that software engineering remains necessary because:
+
+* accountability, security, integration, maintenance, and correctness remain hard to fully delegate;
+* organizations need humans to define intent, manage tradeoffs, and carry responsibility.
+
+This aligns with institutional perspectives emphasizing that AI changes task composition and can be disruptive, but impacts are uncertain and often mediated through redeployment/retraining rather than immediate large-scale elimination. ([Reserve Bank of Australia][9])
+
+#### Radically shrink (commonly discussed, but less consensus)
+
+“Shrink” narratives tend to focus on:
+
+* fewer hires needed for the same output due to higher per-engineer leverage;
+* pressure on entry-level pipelines;
+* consolidation of teams.
+
+Employer outlook discourse often acknowledges that some workforce reduction is anticipated where automation is feasible, even while tech roles continue to be described as growth areas. ([World Economic Forum][3])
+
+#### Cease to exist (not the prevailing view)
+
+A “profession ends” narrative exists, but it is **not** the dominant professional forecast. Longer-range employment projections still expect software developer roles to grow over the coming decade, which reinforces the mainstream perception that the profession continues—though in evolving form. ([Bureau of Labor Statistics][8])
+
+#### Time horizons (as commonly discussed)
+
+* **Short term (1–3 years):** strong shift toward AI-augmented workflows; limited full replacement; biggest perceived disruption is in skill expectations and early-career pathways. ([Stack Overflow][1])
+* **Medium term (3–7 years, to ~2030):** broader process reengineering, more automation of routine work, clearer division between high-context engineering and commoditized implementation; new roles and job shapes emerge. ([World Economic Forum][3])
+* **Long term (beyond ~2030):** uncertainty widens; public narratives include radical shrink scenarios, but mainstream institutional outlooks still emphasize transformation rather than disappearance. ([Bureau of Labor Statistics][8])
+
+---
+
+### 6. Summary
+
+Software Engineering in early 2026 is widely seen as a **durable career** undergoing a fast **workflow transformation** rather than immediate collapse. AI tools are now mainstream in development, but professional sentiment is **more cautious** than the hype cycle suggests—usage is high while trust and enthusiasm are more mixed. Hiring perceptions are **toughest at entry-level**, with intense competition and a higher bar for demonstrable ability, while senior and specialized roles are viewed as more resilient. Morale appears **stable to mildly improving** among employed engineers, but anxiety persists due to macro hiring conditions and the constant need to re-skill. The most common outlook is that the profession **persists but changes shape**, with more emphasis on specification, verification, system design, and accountability. Replacement narratives are loud in public commentary, yet most professional discourse treats “full replacement” as a longer-horizon uncertainty rather than a near-term baseline.
+
+[1]: https://survey.stackoverflow.co/2025/ai "AI | 2025 Stack Overflow Developer Survey"
+[2]: https://survey.stackoverflow.co/2025/ "2025 Stack Overflow Developer Survey"
+[3]: https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/ "The Future of Jobs Report 2025 | World Economic Forum"
+[4]: https://dora.dev/research/2025/dora-report/ "DORA | State of AI-assisted Software Development 2025"
+[5]: https://survey.stackoverflow.co/2025/work "Work | 2025 Stack Overflow Developer Survey"
+[6]: https://news.linkedin.com/2026/2026-Davos-Press-Release "A New World of Work: Global Labor Market Rotates, Not Retreats"
+[7]: https://www.hiringlab.org/2025/11/20/indeed-2026-us-jobs-hiring-trends-report/ "Indeed’s 2026 US Jobs & Hiring Trends Report: How to Find Stability in Uncertainty - Indeed Hiring Lab"
+[8]: https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm "    Software Developers, Quality Assurance Analysts, and Testers :     Occupational Outlook Handbook: :     U.S. Bureau of Labor Statistics"
+[9]: https://www.rba.gov.au/publications/bulletin/2025/nov/technology-investment-and-ai-what-are-firms-telling-us.html "Technology Investment and AI: What Are Firms Telling Us? | Bulletin – November 2025 | RBA"
+```
+Score
+```
+77
+```
