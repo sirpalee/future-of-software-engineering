@@ -1,0 +1,115 @@
+Analysis
+```
+*Assessment date: 4 September 2026. This synthesis uses institutional surveys, labor-market datasets, and research reports—not news articles or individual predictions. Survey selection and the inability to isolate AI from macroeconomic effects limit causal confidence.*
+
+### 1. Overall Sentiment
+
+**Dominant sentiment: mixed and anxiously pragmatic.**
+
+Software engineering is still regarded as a valuable, well-compensated, intellectually rewarding profession, but no longer as an unusually safe or easy career. The prevailing attitude has shifted from “technology will keep creating abundant jobs” toward “the career remains viable, provided engineers adapt quickly.”
+
+Sentiment varies sharply:
+
+* Students and job seekers are comparatively pessimistic because entry-level opportunities are scarce.
+
+* Working engineers are more pragmatic: they increasingly use AI even while distrusting its output and worrying about future career structures.
+
+* Senior specialists are generally more confident about their immediate relevance.
+
+* Engineering leaders are enthusiastic about productivity but concerned about governance, quality, workload, and the weakening junior pipeline.
+
+Recent surveys show AI-agent adoption becoming routine, while trust remains much lower than usage and job-security anxiety is increasing. This combination is better described as **confidence in the work itself but anxiety about the profession’s structure**. [JetBrains Developer Ecosystem 2026](https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026/), [Stack Overflow Developer Survey](https://survey.stackoverflow.co/2025/ai), [Engineering Leadership Report 2026](https://leaddev.com/the-engineering-leadership-report-2026)
+
+### 2. AI Impact on Software Engineering
+
+**Day-to-day work**
+
+AI increasingly handles first drafts, boilerplate, documentation, tests, refactoring, codebase exploration, debugging assistance, and prototypes. Engineers are consequently spending relatively more time defining intent, supplying context, reviewing changes, validating behavior, integrating systems, and dealing with production readiness.
+
+The resulting productivity is real but uneven. Individual implementation may accelerate substantially, while review, verification, technical debt, and organizational bottlenecks absorb some of the gain. Current research characterizes AI primarily as an amplifier: strong engineering systems benefit, while weak processes generate incorrect code and debt faster. [DORA’s 2026 analysis](https://dora.dev/insights/balancing-ai-tensions/), [2026 State of Code survey](https://community.sonarsource.com/t/results-from-the-2026-state-of-code-developer-survey-are-here/172502)
+
+**Skill requirements**
+
+AI fluency is becoming a baseline skill, but prompting alone is not viewed as a durable advantage. Increasingly valuable skills include:
+
+* Problem framing and requirements clarification
+* System design and task decomposition
+* Reading, reviewing, testing, and debugging generated code
+* Security, reliability, observability, and production operations
+* Product and domain judgment
+* Managing multiple agents and preserving relevant context
+* Communicating tradeoffs and accepting accountability
+
+Fundamental technical understanding is therefore becoming more important for verification, even as memorizing syntax and manually producing routine code become less valuable.
+
+**Entry-level versus senior roles**
+
+AI can help juniors learn and produce useful output sooner, but it also automates many of the bounded tasks through which juniors traditionally gained experience. Employers increasingly want evidence of real-world projects, debugging ability, and code comprehension rather than merely AI-assisted output. [2026 developer career-path survey](https://www.bairesdev.com/research)
+
+Senior engineers benefit more defensibly because architecture, tacit organizational context, risk management, and accountability complement AI. Their downside is broader scope: they may supervise more generated work, review larger change volumes, and carry responsibility for failures they did not personally implement.
+
+| Narrative                     | Current assessment                                                                                                            | Confidence                                  |
+| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| **Productivity augmentation** | The dominant observed effect. AI accelerates many bounded tasks, though team-level gains vary.                                | High                                        |
+| **Partial role erosion**      | Already credible for routine implementation, simple maintenance, basic tests and documentation, and some junior task bundles. | Medium-high for tasks; medium for headcount |
+| **Full replacement**          | Highly visible in public discourse, but not the prevailing professional view or current empirical condition.                  | Low in the near term                        |
+
+### 3. Job Opportunities
+
+The market is best described as a **selective recovery from a depressed base**, not a boom and not a collapse.
+
+| Career level          | Perceived availability                                                                                                               | Direction             |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------- |
+| **Entry-level**       | Scarce and intensely competitive. Training-oriented roles and straightforward implementation positions are particularly constrained. | Weak                  |
+| **Mid-level**         | Meaningful availability remains, but hiring is selective and expectations increasingly resemble previous senior responsibilities.    | Soft to mixed         |
+| **Senior/specialist** | The strongest segment, especially for engineers who combine AI fluency with systems or domain expertise.                             | Selectively improving |
+
+Recent US vacancy growth has been concentrated in senior and AI-related roles, while overall software postings remain well below their earlier baseline. Long-range occupational projections nevertheless continue to anticipate above-average growth in broad software-development employment, particularly around AI, cybersecurity, automation, robotics, connected products, and embedded systems. [Indeed software hiring analysis](https://hiringlab.indeed.com/2026/07/08/ai-and-job-postings-from-destruction-to-creation/), [Indeed seniority analysis](https://hiringlab.indeed.com/2026/07/23/the-labor-market-is-tilting-toward-seniority/), [US occupational outlook](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm)
+
+Demand is strongest around AI/ML, data engineering, platform and cloud infrastructure, cybersecurity, reliability, architecture, embedded systems, and domain-heavy work in finance, manufacturing, government, defence, and regulated industries. Geographic conditions are uneven: several English-speaking markets show signs of recovery, while parts of continental Europe remain softer.
+
+Australia presents a similarly mixed picture: software employment has held up better than vacancy sentiment, but ICT vacancies have cooled markedly and several general development occupations are no longer classified as nationally scarce; cybersecurity remains comparatively stronger. [Australian employment assessment](https://www.dewr.gov.au/workplace-relations/resources/ai-and-employment-australia), [Jobs and Skills Australia shortage report](https://www.jobsandskills.gov.au/download/19894/occupation-shortage-report-september-2025/3825/occupation-shortage-report-september-2025/pdf)
+
+AI probably contributes to the seniority shift, but interest rates, post-pandemic overhiring, lower employee turnover, and reduced willingness to train remote juniors also matter. Current data do not establish AI as the principal cause of the broader hiring slowdown.
+
+### 4. Software Engineer Happiness & Well-Being
+
+**Average perceived happiness: middling.
+Morale direction: slightly declining and fragile.**
+
+The latest broad developer survey showed a modest improvement in reported job satisfaction, but only a minority described themselves as clearly happy. Fresher 2026 evidence points toward increasing job-security concern, longer hours, expanded responsibility, and weak team motivation. [Stack Overflow work survey](https://survey.stackoverflow.co/2025/work), [Engineering Leadership Report 2026](https://leaddev.com/wp-content/uploads/2026/06/ENGINEERING_LEADERSHIP_REPORT_2026_FINAL.pdf)
+
+* **Job security:** Anxiety is rising faster than demonstrated displacement. Uncertainty about future value and progression appears more damaging than current layoffs alone.
+
+* **Compensation:** Pay remains a major attraction and is generally strong relative to other careers, although access to the best-paid positions is increasingly concentrated among experienced specialists.
+
+* **Work-life balance:** Highly employer-dependent. Remote flexibility remains valued, but leaner organizations, wider scopes, and pressure to convert AI savings into greater output can negate productivity benefits.
+
+* **Intellectual fulfillment:** AI removes tedious work and lowers the friction of starting projects. Conversely, some engineers feel that creative implementation is being replaced by reviewing, correcting, and supervising generated output.
+
+* **Career identity:** Unsettled rather than collapsing. The identity of “person who writes code” is weakening, while “person accountable for designing and operating software systems” is strengthening.
+
+Overall, morale is not in free fall, but neither does it appear to be improving broadly. AI-forward teams can feel more capable and optimistic, while juniors, mid-level reviewers, and engineering leaders often experience greater uncertainty or pressure.
+
+### 5. Replacement Outlook
+
+*Short term: 1–3 years. Medium term: 3–7 years. Long term: beyond roughly 8–10 years.*
+
+| Outcome                   | Assessment                                                                                                                                                                                                                                                   |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Radically shrink**      | Plausible now for particular commodity, implementation-heavy, and junior-role segments. A profession-wide contraction is unlikely in the short term but becomes a legitimate medium-term uncertainty if productivity gains exceed growth in software demand. |
+| **Transform but persist** | The clearest prevailing expectation. Engineers write less code manually while assuming more responsibility for intent, architecture, evaluation, integration, security, operations, and accountability.                                                      |
+| **Cease to exist**        | Not a realistic short- or medium-term mainstream expectation. Beyond a decade, uncertainty is too high for a defensible conclusion; disappearance remains speculative rather than evidence-backed.                                                           |
+
+Current payroll research finds no widespread economy-wide displacement, although younger workers in AI-exposed occupations are falling behind mainly through reduced hiring rather than increased dismissals. Meanwhile, official projections still anticipate growth in broad software-development employment. [Administrative labor-market study](https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/), [US occupational outlook](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm)
+
+The central uncertainty is economic rather than purely technical: AI may allow each engineer to produce more with a smaller team, but cheaper software may also make many previously uneconomic projects worthwhile. Consequently, code-generation capability does not translate mechanically into equivalent job losses.
+
+### 6. Summary
+
+Software engineering remains a viable, well-paid, and structurally important career, but it no longer feels uniformly secure or easy to enter. The dominant mood is mixed and adaptation-oriented: engineers are adopting AI rapidly while remaining skeptical about reliability and future career structures. AI is already reducing manual coding work, yet verification, architecture, domain context, security, and accountability remain human-heavy. The greatest labor-market weakness is the entry-level pipeline, while senior and AI-fluent specialists have the strongest opportunities. Morale is fragile and slightly declining as higher expectations, career uncertainty, and verification work offset some of AI’s productivity and creative benefits. The prevailing outlook is transformation with selective role erosion, not the disappearance of software engineering in the foreseeable future.
+```
+Score
+```
+68
+```
