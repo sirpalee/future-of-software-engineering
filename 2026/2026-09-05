@@ -1,0 +1,79 @@
+Analysis
+```
+*Assessment date: 5 September 2026. This is a qualitative synthesis of public discourse and developer research, not a representative daily poll. Survey findings span different periods, so they do not establish a change since yesterday.*
+
+### 1. Overall Sentiment
+
+**The dominant sentiment is anxious and fragmented, with selective optimism.** Software engineering remains a valuable profession, but confidence in a predictable path from learning to code to secure employment has weakened.
+
+Enthusiasm about building software faster coexists with concern about fewer opportunities, changing expectations, and the durability of existing skills. Professional discussions commonly distinguish AI’s usefulness from confidence in its reliability: widespread adoption does not imply either unconditional trust or an expectation of complete replacement. [Developer agent survey](https://stackoverflow.blog/2026/05/27/agents-on-a-leash-agentic-ai-remains-mostly-monitored-at-work/)
+
+### 2. AI Impact on Software Engineering
+
+AI is increasingly perceived as a normal part of development. Recent survey evidence shows agent use becoming mainstream, although the extent of delegation varies considerably across developers and technical domains. [Developer Ecosystem research, August 2026](https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026/)
+
+* **Day-to-day work:** Code generation, documentation, testing, exploration, and prototyping are widely perceived to become faster. Reviewing output, correcting subtle errors, and maintaining system coherence remain substantial work.
+* **Skill requirements:** Greater emphasis falls on specifying requirements, evaluating generated code, debugging, architecture, security, and domain knowledge. AI proficiency complements these skills; reliable evaluation still requires technical understanding.
+* **Entry-level versus senior roles:** Newcomers gain accessible learning assistance, while routine tasks that traditionally provided experience face automation pressure. Experienced engineers can delegate implementation, but their responsibilities and expected output also change.
+* **Long-term relevance:** Professional value is increasingly associated with delivering reliable outcomes and owning systems, alongside writing code. [State of Code Developer Survey 2026](https://www.sonarsource.com/state-of-code-developer-survey-report.pdf)
+
+Three narratives should remain distinct:
+
+| Narrative                     | Current interpretation                                                                                                                        |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Productivity augmentation** | Widely experienced and accepted, although gains vary by task and workflow.                                                                    |
+| **Partial role erosion**      | A credible concern: some tasks disappear, responsibilities consolidate, and individual teams may need fewer people.                           |
+| **Full replacement**          | Prominent in public debate, but widespread code generation does not establish autonomous responsibility for the entire engineering lifecycle. |
+
+Recent research explicitly distinguishes delegating code production from delegating software development as a whole. [Research on agent-generated code](https://blog.jetbrains.com/research/2026/08/how-much-code-do-developers-really-let-agents-write/)
+
+### 3. Job Opportunities
+
+**Perceived availability remains difficult but uneven, with evidence of selective recovery.**
+
+| Career stage            | Perceived opportunities                                                                                                                                       |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Entry-level**         | Weakest prospects and intense competition. The traditional pathway into the profession feels less dependable.                                                 |
+| **Mid-level**           | Opportunities persist, but hiring is selective. Relevant production experience and demonstrated ownership matter; evidence of a broad recovery is less clear. |
+| **Senior / specialist** | Strongest relative position, particularly when experience combines with AI-related capabilities. Seniority provides an advantage, not guaranteed security.    |
+
+Recent hiring research shows software vacancies recovering from depressed levels, with gains concentrated in senior and AI-related positions. Recovery also differs geographically: several major economies show improvement, while parts of continental Europe lag. This supports cautious optimism without suggesting a return to an easy hiring market. [Indeed hiring research](https://hiringlab.indeed.com/2026/07/08/ai-and-job-postings-from-destruction-to-creation/)
+
+Concern about early-career opportunities has empirical support, but attributing the entire problem to AI would overstate the evidence. Recent employment research identifies reduced hiring among young workers in highly exposed occupations while explicitly treating the findings as descriptive rather than causal. [Employment research, revised August 2026](https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/)
+
+### 4. Software Engineer Happiness & Well-Being
+
+**Morale assessment: broadly stable but strained, with low confidence about the recent direction.** Available evidence does not justify describing average happiness as uniformly declining.
+
+The main tensions are:
+
+* **Job security:** Uncertainty about future demand can undermine confidence even among currently employed engineers.
+* **Compensation versus stress:** Pay remains an attraction, but does not remove concerns about workload or career continuity.
+* **Work-life balance:** Experiences depend heavily on employer expectations, autonomy, and whether time savings become relief or additional assignments.
+* **Intellectual fulfillment:** Building useful systems remains rewarding; automation can remove tedious work while reducing hands-on involvement that some engineers enjoy.
+* **Career identity:** Shifting from implementation toward delegation and verification is empowering for some and unsettling for others.
+
+Broad survey evidence shows that satisfaction with present work and concern about AI can coexist; autonomy, compensation, and solving meaningful problems remain central to satisfaction. [Developer work survey](https://survey.stackoverflow.co/2025/work)
+
+AI-specific research also records improved job satisfaction alongside substantial verification burdens. Enjoying the tools therefore should not be interpreted as feeling secure about the profession’s future. [State of Code Developer Survey 2026](https://www.sonarsource.com/state-of-code-developer-survey-report.pdf)
+
+### 5. Replacement Outlook
+
+**Transformation with continued professional relevance is the best-supported interpretation of the prevailing outlook.** This is a synthesis, not a measured consensus.
+
+| Possible outcome          | Public perception and time horizon                                                                                                                                                                                       |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Radically shrink**      | A serious concern over the coming years, especially for routine implementation and entry pathways. Profession-wide contraction remains uncertain: fewer engineers per project could coexist with more software projects. |
+| **Transform but persist** | The strongest near- and medium-term expectation. Engineers increasingly define problems, direct automation, integrate systems, validate behavior, and maintain operational responsibility.                               |
+| **Cease to exist**        | Discussed mainly in stronger long-term automation narratives. There is no broadly established timetable or agreement that disappearance is inevitable.                                                                   |
+
+Employer expectations through 2030 combine anticipated growth in software development with workforce reductions where AI automates tasks. These older expectations illustrate the coexistence of expansion and displacement narratives; they are not guarantees of either outcome. [Future of Jobs employer survey](https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/)
+
+### 6. Summary
+
+Software engineering remains viable, but its career outlook is perceived as less predictable and more differentiated by experience. The dominant tone combines anxiety about employment with enthusiasm for more powerful development tools. AI is widely seen as augmenting productivity while also eroding some tasks and potentially reducing staffing needs in particular teams. Hiring shows selective recovery, although newcomers face substantially harder conditions than experienced specialists. Morale appears strained and uneven, with insufficient evidence to establish a clear recent improvement or decline. Transformation and continued relevance currently have stronger support than either assured long-term security or the disappearance of the profession.
+```
+Score
+```
+65
+```
