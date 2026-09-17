@@ -1,0 +1,94 @@
+Analysis
+```
+# Future of Software Engineering – Daily Assessment
+
+**Assessment date: 17 September 2026**
+
+*This is a qualitative assessment of prevailing sentiment, not a representative poll conducted today. The evidence combines developer surveys, professional research, and hiring reports, with stronger coverage of English-language discourse and the U.S. market. Some broad surveys reflect earlier fieldwork, so no day-over-day change is inferred.*
+
+## 1. Overall Sentiment
+
+**Dominant sentiment: fragmented and anxious, with pragmatic optimism about the work itself.** Confidence in this classification is moderate.
+
+The central tension is between **confidence that software remains valuable** and **confidence that a software engineering career will remain accessible and secure**. Engineers can feel more capable with AI while simultaneously worrying about hiring, bargaining power, and the durability of their skills. The profession is not generally treated as obsolete, but confidence in a predictable career path is weaker, particularly around entry-level opportunities. ([Stack Overflow Developer Survey][1])
+
+Optimistic commentary emphasizes faster experimentation and less repetitive implementation. Pessimistic commentary emphasizes smaller teams, reduced demand for routine coding, and disrupted career ladders. A substantial middle position accepts AI’s usefulness while remaining skeptical of autonomous output and concerned about professional control. **Enthusiasm for the tools should not be mistaken for confidence in their employment consequences.** ([Developer Ecosystem 2025][2])
+
+## 2. AI Impact on Software Engineering
+
+### Productivity augmentation
+
+AI is widely perceived as useful for drafting code, explaining unfamiliar systems, producing documentation, generating tests, and prototyping. Agents extend this expectation toward executing multi-step tasks rather than merely suggesting completions. However, developers distinguish producing an initial result from delivering a dependable production change: review, integration, security, and correction remain important sources of work. 
+
+The productivity narrative is therefore increasingly conditional. Good tools can accelerate work, but organizational processes and existing engineering quality influence whether individual gains become better delivery outcomes. Faster code generation is not automatically equivalent to faster, safer software delivery. ([Dora][3])
+
+### Skill requirements and partial role erosion
+
+The perceived skills shift is toward combining AI fluency with task definition, technical judgment, verification, and broader understanding of systems and business needs. Developers anticipate greater expectations around using AI, while expressing concern about losing competence through excessive delegation. The emerging expectation is not simply “replace programming knowledge with prompting.” ([Developer Ecosystem 2025][2])
+
+**Partial role erosion is a credible concern even without full replacement.** Routine assignments can move into senior-engineer-plus-AI workflows, reducing opportunities that previously helped newcomers develop expertise. Early-career engineers may gain a powerful learning aid while losing some of the paid practice through which experience traditionally accumulated. Research documents this mechanism, although its prevalence cannot be established globally from small interview studies. ([arXiv][4])
+
+### Full replacement and long-term relevance
+
+Full replacement remains a visible narrative, but it has less support than task automation and role transformation. Professional surveys show continuing demand for human judgment when AI output cannot be trusted, especially in higher-responsibility work. This supports continued relevance for engineering responsibility, without guaranteeing that every existing role or team structure survives unchanged. ([Stack Overflow Developer Survey][5])
+
+## 3. Job Opportunities
+
+**Overall perception: a selective, uneven market—not a universal hiring collapse and not a broad return to easy hiring.**
+
+| Career level            | Perceived availability and competition                                                                                                                                                                        | Confidence                                                             |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **Entry-level**         | The most constrained segment. Graduates and career changers face fewer accessible openings and competition from candidates with previous experience. Employers’ willingness to train is a prominent concern.  | High confidence in the observed U.S. markets; less certainty globally. |
+| **Mid-level**           | Opportunities remain, but expectations favor independent delivery and broader ownership. Competition is substantial, and experience alone does not ensure an easy search.                                     | Moderate.                                                              |
+| **Senior / specialist** | Relatively more resilient, particularly where work requires complex integration, AI expertise, infrastructure, or security knowledge. Selectivity remains high; seniority is not immunity from restructuring. | Moderate.                                                              |
+
+The entry-level assessment is supported by recent hiring research and interviews with training providers; the relative resilience of experienced engineers is supported by company-level hiring analysis. These findings describe unequal opportunity, not the disappearance of engineering employment. ([Center for an Urban Future (CUF)][6])
+
+Demand appears concentrated around particular capabilities rather than expanding uniformly across all specialties. Opportunities also extend beyond technology companies into sectors implementing software and AI. Geography matters: developers’ assessments of their local market vary substantially, making a single worldwide hiring verdict unreliable. ([Center for an Urban Future (CUF)][6])
+
+**Attribution remains uncertain.** AI is part of the explanation discussed publicly, but financing conditions, economic uncertainty, and organizational restructuring also affect hiring. A reduction in openings is not, by itself, proof that AI has replaced the corresponding workers. ([Center for an Urban Future (CUF)][6])
+
+## 4. Software Engineer Happiness & Well-Being
+
+**Estimated average perceived happiness: mixed and strained, rather than uniformly unhappy.**
+**Morale direction: broadly stable but under pressure—a low-confidence qualitative classification.**
+
+**Job security and career identity:** Anxiety concerns both immediate employability and whether accumulated expertise will retain its value. At the same time, broad survey evidence does not support treating fear of imminent replacement as universal. Greater career anxiety can coexist with satisfaction in a current job. ([survey.stackoverflow.co][1])
+
+**Compensation versus stress:** Pay, autonomy, and meaningful problem-solving remain important reasons engineers value their work. However, developers also question whether productivity measurements capture their real contribution. A well-paid role can remain attractive while becoming less satisfying when control, recognition, or expectations deteriorate. ([Stack Overflow Developer Survey][1])
+
+**Work-life balance:** AI has not established a clear, general improvement in working conditions. Developers report time savings, but checking generated code and managing technical debt can absorb part of those gains. Reduced effort on one task does not necessarily produce a shorter or less stressful working day. 
+
+**Intellectual fulfillment:** Some developers report greater satisfaction because AI makes building and exploring easier. Others are concerned about losing creative control or weakening their own competence. The balance depends partly on whether AI feels like assistance or a requirement to surrender valued parts of the work. 
+
+The evidence does **not** justify a confident claim that average happiness is currently declining across the profession. “Stable but strained” reflects these opposing signals, not a measured daily trend.
+
+## 5. Replacement Outlook
+
+The time horizons below organize the assessment; they are not agreed prediction deadlines.
+
+| Possible outcome                            | Current perception and time horizon                                                                                                                                                                                                                                                                                                                                                         |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Radically shrink**                        | A serious concern, particularly for routine implementation and entry-level hiring. Over the **next one to two years**, reduced staffing or hiring within particular teams is more defensible than assuming a profession-wide collapse. Over **three to five years**, substantial contraction remains a debated possibility, not an established expectation. ([SignalFire][7])               |
+| **Transform but persist**                   | The strongest working baseline for the **next several years**. More implementation is delegated, while people retain responsibility for defining, evaluating, integrating, and maintaining systems. Employer expectations extending toward the end of the decade still include demand for software development alongside substantial skills change. ([Stack Overflow Developer Survey][5])  |
+| **Cease to exist as a distinct profession** | Not a broadly established near-term professional expectation. Over **longer horizons**, it remains part of the debate, but the available evidence does not establish either inevitability or a credible disappearance date. Automation of most coding tasks would not, by itself, demonstrate that all engineering responsibilities had disappeared. ([Stack Overflow Developer Survey][5]) |
+
+Two distinctions matter. First, **fewer engineers required per project does not necessarily mean fewer engineers employed overall**: the result also depends on how much additional software organizations choose to build. Second, persistence of the profession does not imply unchanged staffing, compensation, responsibilities, or career ladders. The evidence supports substantial transformation more clearly than any precise forecast of total employment.
+
+## 6. Summary
+
+Software engineering is currently viewed as a valuable but less predictable career, with sentiment divided between practical optimism and employment anxiety. The strongest near-term concern is restricted entry and changing hiring expectations, rather than the immediate disappearance of all engineering work. ([SignalFire][7]) AI is widely perceived as useful, but its benefits are accompanied by verification burdens and concerns about quality and professional control. Morale appears mixed and broadly stable under pressure, with improved work satisfaction in some settings coexisting with weaker career confidence.  Transformation remains a better-supported baseline than extinction, although it may involve meaningful erosion of particular roles. The unresolved issue is whether expanding demand for software will offset reduced labor requirements for producing it. ([World Economic Forum][8])
+
+[1]: https://survey.stackoverflow.co/2025/work "Work | 2025 Stack Overflow Developer Survey"
+[2]: https://devecosystem-2025.jetbrains.com/artificial-intelligence "Artificial Intelligence - The State of Developer Ecosystem in 2025"
+[3]: https://dora.dev/research/2025/dora-report/ "DORA | State of AI-assisted Software Development 2025"
+[4]: https://arxiv.org/abs/2607.17067 "[2607.17067] Who Will Become the Next Senior? How Generative AI Erodes the Development Pathway in Software Engineering"
+[5]: https://survey.stackoverflow.co/2025/ai "AI | 2025 Stack Overflow Developer Survey"
+[6]: https://nycfuture.org/research/nyc-entry-level-tech-pathways-in-the-age-of-ai "Strengthening NYC’s Entry-Level Tech Pathways in the Age of AI | Center for an Urban Future (CUF)"
+[7]: https://www.signalfire.com/blog/signalfire-state-of-talent-report-2026 "SignalFire's State of Tech Talent Report - 2026"
+[8]: https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/ "The Future of Jobs Report 2025 | World Economic Forum"
+```
+Score
+```
+65
+```
