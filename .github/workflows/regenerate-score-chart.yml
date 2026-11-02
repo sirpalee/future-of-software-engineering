@@ -26,18 +26,21 @@ jobs:
       - name: Install dependencies
         run: uv sync --frozen
 
+      - name: Regenerate scores
+        run: uv run python generate_scores.py
+
       - name: Regenerate chart
         run: uv run python generate_graph.py
 
-      - name: Commit updated chart
+      - name: Commit updated scores and chart
         run: |
-          if git diff --quiet -- score_chart.png; then
-            echo "score_chart.png is unchanged"
+          if git diff --quiet -- score.csv score_chart.png; then
+            echo "score.csv and score_chart.png are unchanged"
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add score_chart.png
-          git commit -m "Update generated score chart [skip ci]"
+          git add score.csv score_chart.png
+          git commit -m "Update generated scores and chart [skip ci]"
           git push
