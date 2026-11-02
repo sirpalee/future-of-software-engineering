@@ -1,0 +1,48 @@
+Analysis
+```
+## Future of Software Engineering – Daily Assessment
+
+**2 November 2026**
+
+### 1. Overall Sentiment
+
+**Sentiment is mixed. Developers are broadly positive about AI as a tool, while confidence in software engineering as a career is more guarded.** The sharpest anxiety concerns getting a first job. Computer science graduates sound markedly more pessimistic than working developers do about their own job security. Among working developers, the most common response to a question about the next two years was that their security felt about the same, although more felt less secure than more secure. [Stack Overflow Developer Survey](https://survey.stackoverflow.co/2026/ai?utm_source=chatgpt.com)
+
+### 2. AI Impact on Software Engineering
+
+- **Productivity augmentation is the clearest current effect.** Developers report the most value when they can check the result themselves, such as generating familiar code, debugging a failure, or drafting tests. Many say they ship faster. They also report spending time reviewing generated changes, while meetings, unclear requirements, and coordination still slow delivery. [Stack Overflow Developer Survey](https://survey.stackoverflow.co/2026/ai?utm_source=chatgpt.com)
+- **Partial role erosion is most visible in how teams allocate work.** A senior engineer using an agent can finish a small bug fix that previously would have gone to a junior. Engineering leaders worry about the cumulative effect because those assignments also teach newcomers how a production system behaves. For experienced engineers, respondents expect system design, debugging, and judging whether a proposed change is safe to gain importance. [arxiv.org](https://arxiv.org/abs/2607.17067?utm_source=chatgpt.com)
+- **Full replacement remains a longer-term narrative.** Current professional surveys describe engineers taking more responsibility for validating output. Deciding what a system should do, resolving conflicting requirements, and owning the consequences of a release remain recognizable engineering responsibilities. [Stack Overflow Developer Survey](https://survey.stackoverflow.co/2026/ai?utm_source=chatgpt.com)
+
+### 3. Job Opportunities
+
+U.S. software development postings have recovered from their 2025 low, but by late October they were still well below their pre-pandemic level. The recovery has been uneven, and the earlier hiring slowdown began before widespread generative AI use. That makes it difficult to attribute the weakness to AI alone. [St. Louis Fed](https://fred.stlouisfed.org/series/IHLIDXUSTPSOFTDEVE?utm_source=chatgpt.com)
+
+| Career stage | Perceived availability and competition |
+|---|---|
+| Entry-level | The hardest market. Graduates cite scarce openings and intense competition as their leading concerns. U.S. payroll data also shows that early-career developers experienced the sharpest employment decline. [Handshake](https://joinhandshake.com/blog/network-trends/class-of-2026-spotlight-computer-science/?utm_source=chatgpt.com) |
+| Mid-level | More openings than at entry level, but a smaller share of advertised demand than at senior level. The evidence is less clear on whether mid-level hiring itself is improving. [Indeed Hiring Lab](https://hiringlab.indeed.com/2026/07/23/the-labor-market-is-tilting-toward-seniority/?utm_source=chatgpt.com) |
+| Senior and specialist | Relatively favorable. Senior roles accounted for most of the measured U.S. rebound through May, and roles with AI in the title contributed substantially. Technology firms remain major employers, with professional services also accounting for a sizable share of postings. [Indeed Hiring Lab](https://hiringlab.indeed.com/2026/07/08/ai-and-job-postings-from-destruction-to-creation/?utm_source=chatgpt.com) |
+
+In Australia, a September survey weighted toward Sydney found relatively few engineering leaders expanding hiring, even as respondents described software engineers as difficult to recruit. Selective demand and a difficult job search can coexist. [Lookahead](https://lookahead.com.au/ai-engineering-whitepaper-2026?utm_source=chatgpt.com)
+
+### 4. Software Engineer Happiness & Well-Being
+
+**Morale appears mixed and modestly declining year over year.** Two developer surveys agree on the direction despite differing on the level. Stack Overflow found middling satisfaction was the most common response, while State of Devs found a majority happy in their current jobs. Both recorded an increase in unhappiness. [Stack Overflow Developer Survey](https://survey.stackoverflow.co/2026/work?utm_source=chatgpt.com)
+
+Good colleagues, work-life balance, and interesting work remain important sources of satisfaction. Compensation divides respondents, and fatigue and uncertainty about finding another role weigh on morale. The shift toward reviewing generated code also affects professional identity. Some engineers miss solving difficult problems themselves, although fatigue and reluctance to change jobs were more common explanations for feeling disengaged. [Stack Overflow Developer Survey](https://survey.stackoverflow.co/2026/work/data?utm_source=chatgpt.com)
+
+### 5. Replacement Outlook
+
+**Over the next few years, transformation with continued employment is the prevailing professional outlook.** Smaller teams are plausible where employers want to maintain current output. Other employers report using the same capacity to build more software, and an international employer survey still placed software and applications developers among the occupations expected to grow fastest through 2030. [|Karat](https://karat.com/ai-is-making-top-engineers-more-valuable-as-companies-use-productivity-gains-to-produce-more-software-new-karat-research-finds/?utm_source=chatgpt.com)
+
+**Over a longer horizon, contraction is a widely held concern, but its scale is uncertain.** In a U.S. survey published in 2025, around half or more of both the public and AI experts expected fewer software engineering jobs over twenty years. That question measured the expected direction of employment. It provides little basis for concluding that people expect a *radical* contraction, and still less for treating the profession’s disappearance as a consensus forecast. [Pew Research Center](https://www.pewresearch.org/internet/2025/04/03/how-the-us-public-and-ai-experts-view-artificial-intelligence/?utm_source=chatgpt.com)
+
+### 6. Summary
+
+Software engineering still looks viable to many practitioners, but entering the field feels harder than remaining in it. AI can shorten the path from an idea to working code, while engineers still carry responsibility for what reaches users. The strongest immediate fear is that teams will automate the assignments through which junior engineers gain experience. Experienced engineers have benefited more from the hiring recovery, even as morale across the profession has softened. The central uncertainty is how employers will divide the productivity gains between building more software and employing fewer people to build it. [Indeed Hiring Lab](https://hiringlab.indeed.com/2026/07/08/ai-and-job-postings-from-destruction-to-creation/?utm_source=chatgpt.com)
+```
+Score
+```
+68
+```
